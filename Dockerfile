@@ -1,4 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
+ADD ./ /app
+ENV ASPNETCORE_URLS=http://*:${PORT}
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
