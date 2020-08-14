@@ -8,6 +8,6 @@ services:
       dockerfile: Dockerfile
   db: 
     image: "mcr.microsoft.com/mssql/server"
-        environment:
-            SA_PASSWORD: "Your_password123"
-            ACCEPT_EULA: "Y"
+    environment:
+        SA_PASSWORD: "Your_password123"
+        ACCEPT_EULA: "Y"
