@@ -66,9 +66,6 @@ C:\Users\phxua\source\repos\MailTemplating\bin\Debug\netcoreapp3.1\runtimes\win\
 C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.csprojAssemblyReference.cache
 C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.AssemblyInfoInputs.cache
 C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.AssemblyInfo.cs
-C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.csproj.CoreCompileInputs.cache
-C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.RazorAssemblyInfo.cache
 C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.RazorAssemblyInfo.cs
 C:\Users\phxua\source\repos\MailTemplating\obj\Debug\netcoreapp3.1\MailTemplating.TagHelpers.input.cache
