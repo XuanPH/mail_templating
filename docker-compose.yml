@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  mailtemplating:
+    image: ${DOCKER_REGISTRY-}mailtemplating
+    build:
+      context: .
+      dockerfile: Dockerfile
+  db: 
+    image: "mcr.microsoft.com/mssql/server"
+        environment:
+            SA_PASSWORD: "Your_password123"
+            ACCEPT_EULA: "Y"

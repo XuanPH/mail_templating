@@ -3,16 +3,15 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
-
+ENV ASPNETCORE_ENVIRONMENT=Development
 ENV ASPNETCORE_URLS http://*:80
-ENV ASPNETCORE_ENVIRONMENT=Production
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["MailTemplating.csproj", "./"]
-RUN dotnet restore "MailTemplating.csproj"
+COPY ["MailTemplating.csproj", ""]
+RUN dotnet restore "./MailTemplating.csproj"
 COPY . .
-WORKDIR "/src/"
+WORKDIR "/src/."
 RUN dotnet build "MailTemplating.csproj" -c Release -o /app/build
 
 FROM build AS publish
